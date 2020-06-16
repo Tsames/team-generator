@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team Generator</title>
+        <link href="./css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="./css/main.css" rel="stylesheet" type="text/css" media="all"/>
+    </head>
+    <body>
+        <div id="bigContainer">
+            <div id="topHeader">
+                <h1>Team Generator</h1>
+                <h2>by OneMore</h2>
+            </div>
+            <div id="publicMessage" class=""></div>
+            <div id="controls">
+                <div id="inputPlayers">
+                    <input id="enterPlayers" placeholder="Enter all players delimited by a /', /' (comma and space).">
+                    <button id="enterPlayersButton">Enter Players</button>
+                </div>
+                <div id='generateTeams'>
+                    <input id="numberPlayers" placeholder="Number of Players">
+                    <input id="numberTeams" placeholder="Number of Teams">
+                    <button id="generateButton">Generate Teams</button>
+                </div>
+                <button id="clearPlayers">Clear Players</button>
+                <button id="clearTeams">Clear Teams</button>
+            </div>
+            <div id="playerPoolContainer" class="littleContainer">
+                <div id="playerGrid" class="littleGrid">
+                </div>
+            </div>
+            <div id="teamsContainer" class="littleContainer">
+                <div id="teamGrid" class="littleGrid">
+                </div>
+            </div>
+      </div>
+    </body>
+    <script src='script.js'></script>
+</html>
